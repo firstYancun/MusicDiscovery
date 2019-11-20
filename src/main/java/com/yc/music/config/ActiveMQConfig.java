@@ -1,5 +1,5 @@
 
-package cdm.mq.demo.config;
+package com.yc.music.config;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.apache.activemq.command.ActiveMQTopic;

@@ -1,4 +1,4 @@
-package cdm.mq.demo.util;
+package com.yc.music.util;
 
 
 import lombok.extern.slf4j.Slf4j;

@@ -6,10 +6,6 @@ spring:
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
 
-  activemq:
-    broker-url: tcp://localhost:61616
-    user: admin
-    password: admin
 
 
 mybatis:

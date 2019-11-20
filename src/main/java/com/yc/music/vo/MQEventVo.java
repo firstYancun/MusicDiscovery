@@ -1,4 +1,4 @@
-package cdm.mq.demo.vo;
+package com.yc.music.vo;
 
 import com.carrefour.cn.cdm.common.vos.BaseVo;
 import lombok.Data;

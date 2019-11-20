@@ -1,14 +1,11 @@
-package cdm.mq.demo.service;
+package com.yc.music.service;
 
 
-import cdm.mq.demo.mapper.UserMapper;
-import cdm.mq.demo.vo.UserVo;
+import com.yc.music.mapper.UserMapper;
+import com.yc.music.vo.UserVo;
 import lombok.extern.slf4j.Slf4j;
-import net.bytebuddy.implementation.bytecode.Throw;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.Map;
 
 /*
  * @ClassName：UserService

@@ -1,9 +1,7 @@
-package cdm.mq.demo.mapper;
+package com.yc.music.mapper;
 
-import cdm.mq.demo.vo.UserVo;
+import com.yc.music.vo.UserVo;
 import org.apache.ibatis.annotations.Mapper;
-
-import java.util.Map;
 
 @Mapper
 public interface UserMapper {

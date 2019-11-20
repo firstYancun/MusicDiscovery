@@ -1,9 +1,9 @@
-package cdm.mq.demo.controller;
+package com.yc.music.controller;
 
-import cdm.mq.demo.mq.ActiveMQProducer;
-import cdm.mq.demo.service.UserService;
-import cdm.mq.demo.vo.MQEventVo;
-import cdm.mq.demo.vo.UserVo;
+import com.yc.music.mq.ActiveMQProducer;
+import com.yc.music.service.UserService;
+import com.yc.music.vo.MQEventVo;
+import com.yc.music.vo.UserVo;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;

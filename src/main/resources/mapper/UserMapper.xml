@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="cdm.mq.demo.mapper.UserMapper" >
-    <resultMap id="UserResultMap" type="cdm.mq.demo.vo.UserVo" >
+<mapper namespace="com.yc.music.mapper.UserMapper" >
+    <resultMap id="UserResultMap" type="com.yc.music.vo.UserVo" >
         <id column="user_id" property="userId" jdbcType="BIGINT" />
         <result column="user_name" property="userName" jdbcType="VARCHAR" />
         <result column="pass_word" property="password" jdbcType="VARCHAR" />

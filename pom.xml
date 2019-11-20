@@ -9,12 +9,12 @@
 	</parent>
 
 
-	<groupId>cdm.mq</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>com.yc</groupId>
+	<artifactId>musicdiscovery</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
-	<description>CDM MQ TEST</description>
+	<description>Music Discovery Project</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,7 +22,7 @@
 	</properties>
 
 	<build>
-		<finalName>${artifactId}</finalName>
+		<finalName>${project.artifactId}</finalName>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<testSourceDirectory>src/test/java</testSourceDirectory>
 		<plugins>
@@ -49,7 +49,7 @@
 			<resource>
 				<directory>src/main/resources</directory>
 				<excludes>
-					<exclude>application*.properties</exclude>
+					<exclude>application*.yml</exclude>
 				</excludes>
 			</resource>
 			<resource>
@@ -63,7 +63,7 @@
 				<directory>src/main/resources</directory>
 				<filtering>true</filtering>
 				<includes>
-					<include>application.properties</include>
+					<include>application.yml</include>
 				</includes>
 			</resource>
 		</resources>
@@ -182,12 +182,6 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-		</dependency>
-
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-activemq</artifactId>
 		</dependency>
 
 		<dependency>
